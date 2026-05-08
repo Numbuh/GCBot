@@ -1,5 +1,9 @@
 # Raspberry Pi Pico GameCube Controller Script Player
 
+
+My project is forked from [mkw-replay](https://github.com/malleoz/mkw-replay) this is a project that takes a ghost file from mario kart and reads it at a frame perfect playback. This implemeneted alot of what i needed already so i made some additions. The first boxed in ReadMe is from the origianal depository from malleoz.
+
+------------------------------
 This software allows for the playback of custom GameCube controller input scripts on console using a Raspberry Pi Pico. Connect an exposed GameCube cable dataline to a Wii or GameCube console for perfect precision playback of custom button sequences and analog stick movements.
 
 This project is forked from [pico-rectangle](https://github.com/JulienBernard3383279/pico-rectangle) as data encoding and transmission timings are already handled.
@@ -34,6 +38,9 @@ I bought stuff before I had an actual game plan, so I didn't consider that the P
 
 For easiest install, I suggest using a Unix environment since that's what I used. Specifically, I just used Ubuntu running through `wsl`.
 - `sudo apt-get install build-essential gcc-arm-none-eabi cmake python3 -y`
+
+
+-------------
 
 ## Creating Custom Scripts
 
